@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ad7341-cac0-4aa3-bb42-71a32bfd4069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/Cells/Cells.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/Cells/GameCell.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/Cells/GameCells.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/Cells/NavPanelCell.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/DirectionsPanel/DirectionsPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/DirectionsPanel/DirectionsPanel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/MainField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/MainField.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MainField/NavPanels.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/Maze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/Maze.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Maze/MazeContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/mazeReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +89,7 @@
       <workItem from="1580924402741" duration="4112000" />
       <workItem from="1580932541255" duration="6341000" />
       <workItem from="1580940973876" duration="4529000" />
-      <workItem from="1580971605763" duration="4911000" />
+      <workItem from="1580971605763" duration="5186000" />
     </task>
     <servers />
   </component>
