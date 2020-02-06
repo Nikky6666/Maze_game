@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Maze_game/static/css/main.19fc5d53.chunk.css",
+    "main.css": "/Maze_game/static/css/main.8e4d6089.chunk.css",
     "main.js": "/Maze_game/static/js/main.eb5a69b8.chunk.js",
     "main.js.map": "/Maze_game/static/js/main.eb5a69b8.chunk.js.map",
     "runtime-main.js": "/Maze_game/static/js/runtime-main.fad88b97.js",
@@ -8,9 +8,9 @@
     "static/js/2.fffc7c96.chunk.js": "/Maze_game/static/js/2.fffc7c96.chunk.js",
     "static/js/2.fffc7c96.chunk.js.map": "/Maze_game/static/js/2.fffc7c96.chunk.js.map",
     "index.html": "/Maze_game/index.html",
-    "precache-manifest.08be9942350b6908e27ad9cd045860fa.js": "/Maze_game/precache-manifest.08be9942350b6908e27ad9cd045860fa.js",
+    "precache-manifest.6fac4029e7735f12365fddf1a3637e62.js": "/Maze_game/precache-manifest.6fac4029e7735f12365fddf1a3637e62.js",
     "service-worker.js": "/Maze_game/service-worker.js",
-    "static/css/main.19fc5d53.chunk.css.map": "/Maze_game/static/css/main.19fc5d53.chunk.css.map",
+    "static/css/main.8e4d6089.chunk.css.map": "/Maze_game/static/css/main.8e4d6089.chunk.css.map",
     "static/js/2.fffc7c96.chunk.js.LICENSE.txt": "/Maze_game/static/js/2.fffc7c96.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Maze_game/static/media/backgroundImage.ff8c342d.webp",
     "static/media/errorChoise.png": "/Maze_game/static/media/errorChoise.cfdbafe3.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.fad88b97.js",
     "static/js/2.fffc7c96.chunk.js",
-    "static/css/main.19fc5d53.chunk.css",
+    "static/css/main.8e4d6089.chunk.css",
     "static/js/main.eb5a69b8.chunk.js"
   ]
 }
