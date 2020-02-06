@@ -1,0 +1,33 @@
+.wrapper{
+   /* border: 1px solid white;*/
+    background-color: #7b29ff;
+    border-radius: 15px;
+    padding: 5px 0;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgDirection{
+    width: 5%;
+    margin: 0 7%;
+}
+.imgDirection img{
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0;
+    animation: imgAnim 1s ease forwards;
+}
+
+@keyframes imgAnim {
+    from{
+        opacity: 0;
+    }
+    50%{
+        background-color: wheat;
+    }
+    to{
+        background-color: rgba(177,136,255,0);
+        opacity: 1;
+    }
+}

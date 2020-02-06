@@ -1,0 +1,35 @@
+.wrapper{
+    width: 50%;
+    height: 70%;
+/*    background-color: white;*/
+    display: grid;
+    grid-template-areas: 'emptySpace topNavPanel' 'leftNavPanel mainField';
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr 11fr;
+}
+
+.emptySpace{
+    grid-area: emptySpace;
+}
+.topNavPanel{
+    display: flex;
+    justify-content: space-between;
+    grid-area: topNavPanel;
+/*    background-color: red;*/
+}
+.leftNavPanel{
+    grid-area: leftNavPanel;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/*    background-color: blue;*/
+}
+
+.mainField{
+    grid-area: mainField;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
