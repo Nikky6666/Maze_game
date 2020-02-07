@@ -8,7 +8,13 @@ const MainField = ({maze, generateNewGameData, setShowResult})=>{
 
     return <div className={s.wrapper}>
         <NavPanels fieldSize={maze.fieldSize}/>
-        <GameCells setShowResult={setShowResult} generateNewGameData={generateNewGameData}  maze={maze}/>
+        <GameCells
+            resultPosition = {maze.resultPosition}
+            markerPozition={maze.markerPozition}
+            showResult={maze.showResult}
+            isLoadData={maze.isLoadData}
+            fieldSize={maze.fieldSize}
+            setShowResult={setShowResult} generateNewGameData={generateNewGameData}  maze={maze}/>
     </div>
 };
 

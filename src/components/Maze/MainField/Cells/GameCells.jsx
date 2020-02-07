@@ -2,18 +2,18 @@ import React, {useState} from "react";
 import GameCell from "./GameCell";
 import s from "../MainField.module.css";
 
-const GameCells = ({maze, generateNewGameData, setShowResult}) => {
+const GameCells = ({resultPosition, markerPozition,showResult,isLoadData,fieldSize, generateNewGameData, setShowResult}) => {
     const gameCells = [];
-    for(let i=0; i<maze.fieldSize*maze.fieldSize;i++) gameCells.push(
+    for(let i=0; i<fieldSize*fieldSize;i++) gameCells.push(
         <GameCell
             generateNewGameData={generateNewGameData}
-            resultPosition = {maze.resultPosition}
-            markerPozition={maze.markerPozition}
-            showResult={maze.showResult}
+            resultPosition = {resultPosition}
+            markerPozition={markerPozition}
+            showResult={showResult}
             setShowResult={setShowResult}
             i={i}
-            isLoadData={maze.isLoadData}
-            fieldSize={maze.fieldSize}/>);
+            isLoadData={isLoadData}
+            fieldSize={fieldSize}/>);
 
     return <div className={s.mainField}>{gameCells}</div>
 };

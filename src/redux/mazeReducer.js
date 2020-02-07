@@ -1,11 +1,11 @@
 import faker from 'faker'
-const CHANGE_MARKER_POSITION = 'maze/mazeReducer/CHANGE_MARKER_POSITION'
-const SET_DIRECTIONS = 'maze/mazeReducer/SET_DIRECTIONS'
-const SET_SHOW_RESULT = 'maze/mazeReducer/SET_SHOW_RESULT'
-const SET_IS_LOAD_DATA = 'maze/mazeReducer/SET_IS_LOAD_DATA'
+const CHANGE_MARKER_POSITION = 'maze/mazeReducer/CHANGE_MARKER_POSITION';
+const SET_DIRECTIONS = 'maze/mazeReducer/SET_DIRECTIONS';
+const SET_SHOW_RESULT = 'maze/mazeReducer/SET_SHOW_RESULT';
+const SET_IS_LOAD_DATA = 'maze/mazeReducer/SET_IS_LOAD_DATA';
 
 const initialState = {
-    fieldSize: 3,
+    fieldSize: 5,
     markerPozition: {
         x: 2,
         y: 3
@@ -61,20 +61,20 @@ const mazeReducer = (state = initialState, action) =>{
                         case 1:{
                             if(currentResultMarkerPosition.x === state.fieldSize-1||previousDirection==='left') continue;
                             direction = 'right';
-                            currentResultMarkerPosition = {...currentResultMarkerPosition, x: currentResultMarkerPosition.x+1}
+                            currentResultMarkerPosition = {...currentResultMarkerPosition, x: currentResultMarkerPosition.x+1};
                             tryAgain = false;
                             break;
                         }
                         case 2:{
                             if(currentResultMarkerPosition.y === state.fieldSize -1||previousDirection==='up') continue;
                             direction = 'bottom';
-                            currentResultMarkerPosition = {...currentResultMarkerPosition, y: currentResultMarkerPosition.y+1}
+                            currentResultMarkerPosition = {...currentResultMarkerPosition, y: currentResultMarkerPosition.y+1};
                             tryAgain = false;
                             break;}
                         case 3:{
                             if(currentResultMarkerPosition.x === 0||previousDirection==='right') continue;
                             direction = 'left';
-                            currentResultMarkerPosition = {...currentResultMarkerPosition, x: currentResultMarkerPosition.x-1}
+                            currentResultMarkerPosition = {...currentResultMarkerPosition, x: currentResultMarkerPosition.x-1};
                             tryAgain = false;
                             break;}
                     }
