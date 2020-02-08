@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import MainField from "./MainField/MainField";
 import DirectionsPanel from "./MainField/DirectionsPanel/DirectionsPanel";
 
-const Maze = ({maze, generateNewGameData, setShowResult, setIsLoadData}) => {
+const Maze = ({maze, generateNewGameData, setIsDisplayResult, setIsLoadData}) => {
 
     useEffect(() =>{
         generateNewGameData();
@@ -12,7 +12,7 @@ const Maze = ({maze, generateNewGameData, setShowResult, setIsLoadData}) => {
 
     return <div className={s.wrapper}>
         <Header/>
-        <MainField maze={maze} generateNewGameData={generateNewGameData} setShowResult={setShowResult}/>
+        <MainField maze={maze} generateNewGameData={generateNewGameData} setIsDisplayResult={setIsDisplayResult}/>
         <DirectionsPanel directions={maze.directions} setIsLoadData={setIsLoadData}/>
     </div>
 };

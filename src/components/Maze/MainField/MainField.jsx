@@ -4,17 +4,17 @@ import NavPanels from "./NavPanels";
 import GameCells from "./Cells/GameCells";
 
 
-const MainField = ({maze, generateNewGameData, setShowResult})=>{
+const MainField = ({maze, generateNewGameData, setIsDisplayResult})=>{
 
     return <div className={s.wrapper}>
         <NavPanels fieldSize={maze.fieldSize}/>
         <GameCells
             resultPosition = {maze.resultPosition}
-            markerPozition={maze.markerPozition}
-            showResult={maze.showResult}
+            startPosition={maze.startPosition}
+            isDisplayResult={maze.isDisplayResult}
             isLoadData={maze.isLoadData}
             fieldSize={maze.fieldSize}
-            setShowResult={setShowResult} generateNewGameData={generateNewGameData}  maze={maze}/>
+            setIsDisplayResult={setIsDisplayResult} generateNewGameData={generateNewGameData}/>
     </div>
 };
 
